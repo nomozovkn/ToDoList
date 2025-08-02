@@ -1,0 +1,289 @@
+2025-07-19 08:20:33.136 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-19 08:20:33.221 +05:00 [DBG] Hosting starting
+2025-07-19 08:20:33.227 +05:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 08:20:33.231 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-40830bd6-a8ec-4dda-a777-3c7ac73ab121.xml'.
+2025-07-19 08:20:33.263 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-55b2a426-b1f1-456d-a8a1-fca671786620.xml'.
+2025-07-19 08:20:33.273 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-7209a04c-ca79-4b09-8b92-672f15856e1a.xml'.
+2025-07-19 08:20:33.288 +05:00 [DBG] Found key {40830bd6-a8ec-4dda-a777-3c7ac73ab121}.
+2025-07-19 08:20:33.290 +05:00 [DBG] Found key {55b2a426-b1f1-456d-a8a1-fca671786620}.
+2025-07-19 08:20:33.290 +05:00 [DBG] Found key {7209a04c-ca79-4b09-8b92-672f15856e1a}.
+2025-07-19 08:20:33.294 +05:00 [DBG] Considering key {55b2a426-b1f1-456d-a8a1-fca671786620} with expiration date 2025-08-06 07:19:15Z as default key.
+2025-07-19 08:20:33.295 +05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-19 08:20:33.297 +05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-07-19 08:20:33.302 +05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-19 08:20:33.304 +05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-07-19 08:20:33.305 +05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-07-19 08:20:33.306 +05:00 [DBG] Using key {55b2a426-b1f1-456d-a8a1-fca671786620} as the default key.
+2025-07-19 08:20:33.306 +05:00 [DBG] Key ring with default key {55b2a426-b1f1-456d-a8a1-fca671786620} was loaded during application startup.
+2025-07-19 08:20:33.502 +05:00 [INF] Now listening on: https://localhost:7088
+2025-07-19 08:20:33.502 +05:00 [INF] Now listening on: http://localhost:5195
+2025-07-19 08:20:33.502 +05:00 [DBG] Loaded hosting startup assembly ToDoList.Server
+2025-07-19 08:20:33.502 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-19 08:20:33.502 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-19 08:20:33.502 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-19 08:20:33.546 +05:00 [DBG] Connection id "0HNE6ECSF5U46" accepted.
+2025-07-19 08:20:33.547 +05:00 [DBG] Connection id "0HNE6ECSF5U46" started.
+2025-07-19 08:20:33.557 +05:00 [DBG] Connection id "0HNE6ECSF5U47" accepted.
+2025-07-19 08:20:33.557 +05:00 [DBG] Connection id "0HNE6ECSF5U47" started.
+2025-07-19 08:20:33.564 +05:00 [DBG] Connection id "0HNE6ECSF5U46" received FIN.
+2025-07-19 08:20:33.564 +05:00 [DBG] Connection id "0HNE6ECSF5U47" received FIN.
+2025-07-19 08:20:33.572 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-07-19 08:20:33.572 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-07-19 08:20:33.575 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 08:20:33.578 +05:00 [INF] Hosting environment: Development
+2025-07-19 08:20:33.578 +05:00 [INF] Content root path: D:\Work\Groups\G_10\projects\6_modul\ToDoList\src\ToDoList\ToDoList.Server
+2025-07-19 08:20:33.578 +05:00 [DBG] Hosting started
+2025-07-19 08:20:33.581 +05:00 [DBG] Connection id "0HNE6ECSF5U46" stopped.
+2025-07-19 08:20:33.581 +05:00 [DBG] Connection id "0HNE6ECSF5U47" stopped.
+2025-07-19 08:20:33.584 +05:00 [DBG] Connection id "0HNE6ECSF5U47" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-19 08:20:33.585 +05:00 [DBG] Connection id "0HNE6ECSF5U46" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-19 08:20:33.627 +05:00 [DBG] Connection id "0HNE6ECSF5U48" accepted.
+2025-07-19 08:20:33.627 +05:00 [DBG] Connection id "0HNE6ECSF5U48" started.
+2025-07-19 08:20:33.675 +05:00 [DBG] Connection 0HNE6ECSF5U48 established using the following protocol: "Tls13"
+2025-07-19 08:20:33.727 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - null null
+2025-07-19 08:20:33.806 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-19 08:20:33.823 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-07-19 08:20:33.824 +05:00 [DBG] Request did not match any endpoints
+2025-07-19 08:20:33.864 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-07-19 08:20:33.865 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-07-19 08:20:33.882 +05:00 [INF] Request to /swagger/index.html took 0.052 seconds with status code 200
+2025-07-19 08:20:33.883 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-07-19 08:20:33.884 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-07-19 08:20:33.885 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 08:20:33.885 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - null null
+2025-07-19 08:20:33.889 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - 200 null text/html;charset=utf-8 167.257ms
+2025-07-19 08:20:33.892 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 6.6876ms
+2025-07-19 08:20:33.926 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.571ms
+2025-07-19 08:20:33.991 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - null null
+2025-07-19 08:20:33.991 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-07-19 08:20:33.992 +05:00 [DBG] Request did not match any endpoints
+2025-07-19 08:20:33.998 +05:00 [INF] Request to /swagger/v1/swagger.json took 0.005 seconds with status code 200
+2025-07-19 08:20:33.999 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.5079ms
+2025-07-19 08:20:42.407 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - null null
+2025-07-19 08:20:42.414 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-07-19 08:20:42.414 +05:00 [DBG] Request did not match any endpoints
+2025-07-19 08:20:42.437 +05:00 [INF] Request to /swagger/v1/swagger.json took 0.022 seconds with status code 200
+2025-07-19 08:20:42.438 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.3584ms
+2025-07-19 08:22:43.737 +05:00 [DBG] Connection id "0HNE6ECSF5U48" received FIN.
+2025-07-19 08:22:43.749 +05:00 [DBG] The connection queue processing loop for 0HNE6ECSF5U48 completed.
+2025-07-19 08:22:43.760 +05:00 [DBG] Connection id "0HNE6ECSF5U48" is closed. The last processed stream ID was 9.
+2025-07-19 08:22:43.760 +05:00 [DBG] Connection id "0HNE6ECSF5U48" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-19 08:22:43.769 +05:00 [DBG] Connection id "0HNE6ECSF5U48" stopped.
+2025-07-19 13:16:12.101 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-19 13:16:12.169 +05:00 [DBG] Hosting starting
+2025-07-19 13:16:12.175 +05:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-19 13:16:12.179 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-40830bd6-a8ec-4dda-a777-3c7ac73ab121.xml'.
+2025-07-19 13:16:12.182 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-55b2a426-b1f1-456d-a8a1-fca671786620.xml'.
+2025-07-19 13:16:12.182 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-7209a04c-ca79-4b09-8b92-672f15856e1a.xml'.
+2025-07-19 13:16:12.186 +05:00 [DBG] Found key {40830bd6-a8ec-4dda-a777-3c7ac73ab121}.
+2025-07-19 13:16:12.188 +05:00 [DBG] Found key {55b2a426-b1f1-456d-a8a1-fca671786620}.
+2025-07-19 13:16:12.188 +05:00 [DBG] Found key {7209a04c-ca79-4b09-8b92-672f15856e1a}.
+2025-07-19 13:16:12.192 +05:00 [DBG] Considering key {55b2a426-b1f1-456d-a8a1-fca671786620} with expiration date 2025-08-06 07:19:15Z as default key.
+2025-07-19 13:16:12.194 +05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-19 13:16:12.196 +05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-07-19 13:16:12.197 +05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-19 13:16:12.199 +05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-07-19 13:16:12.200 +05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-07-19 13:16:12.200 +05:00 [DBG] Using key {55b2a426-b1f1-456d-a8a1-fca671786620} as the default key.
+2025-07-19 13:16:12.201 +05:00 [DBG] Key ring with default key {55b2a426-b1f1-456d-a8a1-fca671786620} was loaded during application startup.
+2025-07-19 13:16:12.376 +05:00 [INF] Now listening on: https://localhost:7088
+2025-07-19 13:16:12.376 +05:00 [INF] Now listening on: http://localhost:5195
+2025-07-19 13:16:12.376 +05:00 [DBG] Loaded hosting startup assembly ToDoList.Server
+2025-07-19 13:16:12.376 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-19 13:16:12.376 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-19 13:16:12.376 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-19 13:16:12.445 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-19 13:16:12.446 +05:00 [INF] Hosting environment: Development
+2025-07-19 13:16:12.446 +05:00 [INF] Content root path: D:\Work\Groups\G_10\projects\6_modul\ToDoList\src\ToDoList\ToDoList.Server
+2025-07-19 13:16:12.446 +05:00 [DBG] Hosting started
+2025-07-19 13:16:12.550 +05:00 [DBG] Connection id "0HNE6JI33G86B" received FIN.
+2025-07-19 13:16:12.555 +05:00 [DBG] Connection id "0HNE6JI33G86B" accepted.
+2025-07-19 13:16:12.555 +05:00 [DBG] Connection id "0HNE6JI33G86B" started.
+2025-07-19 13:16:12.568 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-07-19 13:16:12.575 +05:00 [DBG] Connection id "0HNE6JI33G86B" stopped.
+2025-07-19 13:16:12.576 +05:00 [DBG] Connection id "0HNE6JI33G86B" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-19 13:16:12.677 +05:00 [DBG] Connection id "0HNE6JI33G86C" accepted.
+2025-07-19 13:16:12.677 +05:00 [DBG] Connection id "0HNE6JI33G86C" started.
+2025-07-19 13:16:12.761 +05:00 [DBG] Connection 0HNE6JI33G86C established using the following protocol: "Tls13"
+2025-07-19 13:16:12.816 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - null null
+2025-07-19 13:16:12.917 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-19 13:16:12.934 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-07-19 13:16:12.934 +05:00 [DBG] Request did not match any endpoints
+2025-07-19 13:16:12.968 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-07-19 13:16:12.969 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-07-19 13:16:12.984 +05:00 [INF] Request to /swagger/index.html took 0.044 seconds with status code 200
+2025-07-19 13:16:12.986 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-07-19 13:16:12.987 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-07-19 13:16:12.990 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - 200 null text/html;charset=utf-8 180.6543ms
+2025-07-19 13:16:12.992 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-19 13:16:12.993 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - null null
+2025-07-19 13:16:13.004 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 12.156ms
+2025-07-19 13:16:13.046 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.3309ms
+2025-07-19 13:16:13.068 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - null null
+2025-07-19 13:16:13.068 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-07-19 13:16:13.068 +05:00 [DBG] Request did not match any endpoints
+2025-07-19 13:16:13.076 +05:00 [INF] Request to /swagger/v1/swagger.json took 0.007 seconds with status code 200
+2025-07-19 13:16:13.076 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 8.6838ms
+2025-07-19 13:22:36.836 +05:00 [DBG] Connection id "0HNE6JI33G86D" accepted.
+2025-07-19 13:22:36.840 +05:00 [DBG] Connection id "0HNE6JI33G86D" started.
+2025-07-19 13:22:36.851 +05:00 [DBG] Connection 0HNE6JI33G86D established using the following protocol: "Tls13"
+2025-07-19 13:22:36.852 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7088/api/auth/signUp - null null
+2025-07-19 13:22:36.855 +05:00 [DBG] 1 candidate(s) found for the request path '/api/auth/signUp'
+2025-07-19 13:22:36.856 +05:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-07-19 13:22:36.857 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-07-19 13:22:38.472 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-07-19 13:22:38.474 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-07-19 13:22:38.475 +05:00 [INF] CORS policy execution successful.
+2025-07-19 13:22:38.476 +05:00 [DBG] The request is a preflight request.
+2025-07-19 13:22:38.477 +05:00 [INF] Request to /api/auth/signUp took 1.62 seconds with status code 204
+2025-07-19 13:22:38.477 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7088/api/auth/signUp - 204 null null 1624.767ms
+2025-07-19 13:22:38.487 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/auth/signUp - application/json 152
+2025-07-19 13:22:38.488 +05:00 [DBG] 1 candidate(s) found for the request path '/api/auth/signUp'
+2025-07-19 13:22:38.490 +05:00 [DBG] Endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)' with route pattern 'api/auth/signUp' is valid for the request path '/api/auth/signUp'
+2025-07-19 13:22:38.491 +05:00 [DBG] Request matched endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)'
+2025-07-19 13:22:38.491 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-07-19 13:22:38.492 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-07-19 13:22:38.492 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-07-19 13:22:38.492 +05:00 [INF] CORS policy execution successful.
+2025-07-19 13:22:38.493 +05:00 [INF] Executing endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)'
+2025-07-19 13:22:39.107 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-19 13:22:39.179 +05:00 [INF] Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] SignUp(ToDoList.Bll.DTOs.UserCreateDto) on controller ToDoList.Server.Controller.AuthController (ToDoList.Server).
+2025-07-19 13:22:39.180 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-19 13:22:39.181 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-19 13:22:39.182 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-19 13:22:39.183 +05:00 [DBG] Execution plan of exception filters (in the following order): ["ToDoList.Server.Filters.ApiExceptionFilterAttribute (Order: 0)"]
+2025-07-19 13:22:39.183 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","ToDoList.Server.Filters.ToDoListCountHeaderFilter"]
+2025-07-19 13:22:39.184 +05:00 [DBG] Executing controller factory for controller ToDoList.Server.Controller.AuthController (ToDoList.Server)
+2025-07-19 13:22:39.185 +05:00 [DBG] Executed controller factory for controller ToDoList.Server.Controller.AuthController (ToDoList.Server)
+2025-07-19 13:22:39.198 +05:00 [DBG] Attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto' ...
+2025-07-19 13:22:39.201 +05:00 [DBG] Attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto' using the name '' in request data ...
+2025-07-19 13:22:39.202 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-07-19 13:22:39.207 +05:00 [DBG] Connection id "0HNE6JI33G86D", Request id "0HNE6JI33G86D:00000003": started reading request body.
+2025-07-19 13:22:39.207 +05:00 [DBG] Connection id "0HNE6JI33G86D", Request id "0HNE6JI33G86D:00000003": done reading request body.
+2025-07-19 13:22:39.215 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'ToDoList.Bll.DTOs.UserCreateDto'
+2025-07-19 13:22:39.216 +05:00 [DBG] Done attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto'.
+2025-07-19 13:22:39.216 +05:00 [DBG] Done attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto'.
+2025-07-19 13:22:39.216 +05:00 [DBG] Attempting to validate the bound parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto' ...
+2025-07-19 13:22:39.222 +05:00 [DBG] Done attempting to validate the bound parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto'.
+2025-07-19 13:22:53.330 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.4' with options: EngineType=SqlServer 
+2025-07-19 13:22:53.353 +05:00 [DBG] 'MainContext' generated a temporary value for the property 'User.UserId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-19 13:22:53.390 +05:00 [DBG] Context 'MainContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-19 13:22:53.392 +05:00 [DBG] SaveChanges starting for 'MainContext'.
+2025-07-19 13:22:53.395 +05:00 [DBG] DetectChanges starting for 'MainContext'.
+2025-07-19 13:22:53.402 +05:00 [DBG] DetectChanges completed for 'MainContext'.
+2025-07-19 13:22:53.471 +05:00 [DBG] Creating DbConnection.
+2025-07-19 13:22:53.474 +05:00 [DBG] Created DbConnection. (1ms).
+2025-07-19 13:22:53.476 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:53.486 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:53.502 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-19 13:22:53.506 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-19 13:22:53.510 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2025-07-19 13:22:53.514 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 320), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 128), @p4='?' (Size = 15), @p5='?' (DbType = Int32), @p6='?' (Size = 36), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [LastName], [Password], [PhoneNumber], [Role], [Salt], [UserName])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-07-19 13:22:53.573 +05:00 [INF] Executed DbCommand (59ms) [Parameters=[@p0='?' (Size = 320), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 128), @p4='?' (Size = 15), @p5='?' (DbType = Int32), @p6='?' (Size = 36), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [LastName], [Password], [PhoneNumber], [Role], [Salt], [UserName])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-07-19 13:22:53.582 +05:00 [DBG] The foreign key property 'User.UserId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-07-19 13:22:53.587 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:53.592 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 16ms reading results.
+2025-07-19 13:22:53.594 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:53.595 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-19 13:22:53.602 +05:00 [DBG] An entity of type 'User' tracked by 'MainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-19 13:22:53.603 +05:00 [DBG] SaveChanges completed for 'MainContext' with 1 entities written to the database.
+2025-07-19 13:22:55.248 +05:00 [DBG] Compiling query expression: 
+'DbSet<ToDoItem>()
+    .Count()'
+2025-07-19 13:22:55.345 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<int>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM ToDoItems AS t) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM ToDoItems AS t, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            int? value1;
+            value1 = dataReader.IsDBNull(0) ? default(int?) : (int?)dataReader.GetInt32(0);
+            return (int)value1;
+        }, 
+        contextType: ToDoList.Dal.MainContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-07-19 13:22:55.360 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:55.360 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:55.361 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-19 13:22:55.361 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-19 13:22:55.361 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-19 13:22:55.361 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ToDoItems] AS [t]
+2025-07-19 13:22:55.362 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ToDoItems] AS [t]
+2025-07-19 13:22:55.368 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:55.368 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 5ms reading results.
+2025-07-19 13:22:55.368 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:55.368 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-19 13:22:55.399 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-19 13:22:55.402 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-07-19 13:22:55.402 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-07-19 13:22:55.402 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-07-19 13:22:55.403 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-19 13:22:55.403 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Int64'.
+2025-07-19 13:22:55.409 +05:00 [INF] Executed action ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server) in 16224.4423ms
+2025-07-19 13:22:55.410 +05:00 [INF] Executed endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)'
+2025-07-19 13:22:55.410 +05:00 [INF] Request to /api/auth/signUp took 16.919 seconds with status code 200
+2025-07-19 13:22:55.412 +05:00 [DBG] 'MainContext' disposed.
+2025-07-19 13:22:55.414 +05:00 [DBG] Disposing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-19 13:22:55.415 +05:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-07-19 13:22:55.415 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/auth/signUp - 200 null application/json; charset=utf-8 16928.9505ms
+2025-07-19 13:24:21.895 +05:00 [DBG] Connection id "0HNE6JI33G86C" received FIN.
+2025-07-19 13:24:21.895 +05:00 [DBG] Connection id "0HNE6JI33G86D" received FIN.
+2025-07-19 13:24:21.902 +05:00 [DBG] Connection id "0HNE6JI33G86D" is closed. The last processed stream ID was 3.
+2025-07-19 13:24:21.902 +05:00 [DBG] Connection id "0HNE6JI33G86C" is closed. The last processed stream ID was 7.
+2025-07-19 13:24:21.902 +05:00 [DBG] Connection id "0HNE6JI33G86D" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-19 13:24:21.902 +05:00 [DBG] Connection id "0HNE6JI33G86C" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-19 13:24:21.903 +05:00 [DBG] The connection queue processing loop for 0HNE6JI33G86D completed.
+2025-07-19 13:24:21.904 +05:00 [DBG] The connection queue processing loop for 0HNE6JI33G86C completed.
+2025-07-19 13:24:21.907 +05:00 [DBG] Connection id "0HNE6JI33G86D" stopped.
+2025-07-19 13:24:21.907 +05:00 [DBG] Connection id "0HNE6JI33G86C" stopped.

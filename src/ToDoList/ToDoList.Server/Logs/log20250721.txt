@@ -1,0 +1,415 @@
+2025-07-21 16:34:28.695 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-07-21 16:34:28.787 +05:00 [DBG] Hosting starting
+2025-07-21 16:34:28.796 +05:00 [INF] User profile is available. Using 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-21 16:34:28.804 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-40830bd6-a8ec-4dda-a777-3c7ac73ab121.xml'.
+2025-07-21 16:34:28.822 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-55b2a426-b1f1-456d-a8a1-fca671786620.xml'.
+2025-07-21 16:34:28.836 +05:00 [DBG] Reading data from file 'C:\Users\user\AppData\Local\ASP.NET\DataProtection-Keys\key-7209a04c-ca79-4b09-8b92-672f15856e1a.xml'.
+2025-07-21 16:34:28.856 +05:00 [DBG] Found key {40830bd6-a8ec-4dda-a777-3c7ac73ab121}.
+2025-07-21 16:34:28.858 +05:00 [DBG] Found key {55b2a426-b1f1-456d-a8a1-fca671786620}.
+2025-07-21 16:34:28.858 +05:00 [DBG] Found key {7209a04c-ca79-4b09-8b92-672f15856e1a}.
+2025-07-21 16:34:28.864 +05:00 [DBG] Considering key {55b2a426-b1f1-456d-a8a1-fca671786620} with expiration date 2025-08-06 07:19:15Z as default key.
+2025-07-21 16:34:28.867 +05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-21 16:34:28.869 +05:00 [DBG] Decrypting secret element using Windows DPAPI.
+2025-07-21 16:34:28.875 +05:00 [DBG] Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=8.0.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2025-07-21 16:34:28.877 +05:00 [DBG] Opening CNG algorithm 'AES' from provider 'null' with chaining mode CBC.
+2025-07-21 16:34:28.878 +05:00 [DBG] Opening CNG algorithm 'SHA256' from provider 'null' with HMAC.
+2025-07-21 16:34:28.880 +05:00 [DBG] Using key {55b2a426-b1f1-456d-a8a1-fca671786620} as the default key.
+2025-07-21 16:34:28.880 +05:00 [DBG] Key ring with default key {55b2a426-b1f1-456d-a8a1-fca671786620} was loaded during application startup.
+2025-07-21 16:34:29.218 +05:00 [INF] Now listening on: https://localhost:7088
+2025-07-21 16:34:29.219 +05:00 [INF] Now listening on: http://localhost:5195
+2025-07-21 16:34:29.219 +05:00 [DBG] Loaded hosting startup assembly ToDoList.Server
+2025-07-21 16:34:29.219 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-07-21 16:34:29.219 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-07-21 16:34:29.219 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-07-21 16:34:29.325 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-21 16:34:29.325 +05:00 [INF] Hosting environment: Development
+2025-07-21 16:34:29.326 +05:00 [INF] Content root path: D:\Work\Groups\G_10\projects\6_modul\ToDoList\src\ToDoList\ToDoList.Server
+2025-07-21 16:34:29.326 +05:00 [DBG] Hosting started
+2025-07-21 16:34:29.498 +05:00 [DBG] Connection id "0HNE89A72RNUJ" accepted.
+2025-07-21 16:34:29.499 +05:00 [DBG] Connection id "0HNE89A72RNUJ" started.
+2025-07-21 16:34:29.507 +05:00 [DBG] Connection id "0HNE89A72RNUK" accepted.
+2025-07-21 16:34:29.507 +05:00 [DBG] Connection id "0HNE89A72RNUK" started.
+2025-07-21 16:34:29.693 +05:00 [DBG] Connection id "0HNE89A72RNUL" accepted.
+2025-07-21 16:34:29.693 +05:00 [DBG] Connection id "0HNE89A72RNUL" started.
+2025-07-21 16:34:29.747 +05:00 [DBG] Connection 0HNE89A72RNUL established using the following protocol: "Tls13"
+2025-07-21 16:34:29.803 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger - null null
+2025-07-21 16:34:29.928 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-07-21 16:34:29.946 +05:00 [DBG] No candidates found for the request path '/swagger'
+2025-07-21 16:34:29.946 +05:00 [DBG] Request did not match any endpoints
+2025-07-21 16:34:29.956 +05:00 [INF] Request to /swagger took 0.002 seconds with status code 301
+2025-07-21 16:34:29.959 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger - 301 0 null 164.1769ms
+2025-07-21 16:34:29.970 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/index.html - null null
+2025-07-21 16:34:29.973 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-07-21 16:34:29.973 +05:00 [DBG] Request did not match any endpoints
+2025-07-21 16:34:30.000 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-07-21 16:34:30.001 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-07-21 16:34:30.012 +05:00 [INF] Request to /swagger/index.html took 0.038 seconds with status code 200
+2025-07-21 16:34:30.012 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-07-21 16:34:30.012 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-07-21 16:34:30.013 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/index.html - 200 null text/html;charset=utf-8 43.0012ms
+2025-07-21 16:34:30.022 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/swagger-ui.css - null null
+2025-07-21 16:34:30.022 +05:00 [DBG] No candidates found for the request path '/swagger/swagger-ui.css'
+2025-07-21 16:34:30.022 +05:00 [DBG] Request did not match any endpoints
+2025-07-21 16:34:30.023 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/swagger-ui-bundle.js - null null
+2025-07-21 16:34:30.023 +05:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-bundle.js'
+2025-07-21 16:34:30.023 +05:00 [DBG] Request did not match any endpoints
+2025-07-21 16:34:30.028 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/swagger-ui-standalone-preset.js - null null
+2025-07-21 16:34:30.030 +05:00 [DBG] No candidates found for the request path '/swagger/swagger-ui-standalone-preset.js'
+2025-07-21 16:34:30.032 +05:00 [DBG] Request did not match any endpoints
+2025-07-21 16:34:30.125 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-07-21 16:34:30.127 +05:00 [INF] Request to /swagger/swagger-ui.css took 0.105 seconds with status code 200
+2025-07-21 16:34:30.128 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/swagger-ui.css - 200 143943 text/css 106.6454ms
+2025-07-21 16:34:30.130 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-07-21 16:34:30.130 +05:00 [INF] Request to /swagger/swagger-ui-standalone-preset.js took 0.097 seconds with status code 200
+2025-07-21 16:34:30.131 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/swagger-ui-standalone-preset.js - 200 339486 text/javascript 105.5186ms
+2025-07-21 16:34:30.135 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - null null
+2025-07-21 16:34:30.141 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_framework/aspnetcore-browser-refresh.js - 200 13782 application/javascript; charset=utf-8 7.2071ms
+2025-07-21 16:34:30.144 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/_vs/browserLink - null null
+2025-07-21 16:34:30.161 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-07-21 16:34:30.161 +05:00 [INF] Request to /swagger/swagger-ui-bundle.js took 0.138 seconds with status code 200
+2025-07-21 16:34:30.161 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/swagger-ui-bundle.js - 200 1096145 text/javascript 138.9501ms
+2025-07-21 16:34:30.203 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/_vs/browserLink - 200 null text/javascript; charset=UTF-8 60.1288ms
+2025-07-21 16:34:30.522 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - null null
+2025-07-21 16:34:30.522 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-07-21 16:34:30.523 +05:00 [DBG] Request did not match any endpoints
+2025-07-21 16:34:30.534 +05:00 [INF] Request to /swagger/v1/swagger.json took 0.011 seconds with status code 200
+2025-07-21 16:34:30.534 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7088/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 12.4176ms
+2025-07-21 16:34:39.511 +05:00 [DBG] Authentication of the HTTPS connection timed out.
+2025-07-21 16:34:39.511 +05:00 [DBG] Authentication of the HTTPS connection timed out.
+2025-07-21 16:34:39.514 +05:00 [DBG] Connection id "0HNE89A72RNUJ" stopped.
+2025-07-21 16:34:39.514 +05:00 [DBG] Connection id "0HNE89A72RNUK" stopped.
+2025-07-21 16:34:39.515 +05:00 [DBG] Connection id "0HNE89A72RNUJ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-21 16:34:39.515 +05:00 [DBG] Connection id "0HNE89A72RNUK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-07-21 16:36:19.079 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/auth/signUp - application/json 178
+2025-07-21 16:36:19.093 +05:00 [DBG] 1 candidate(s) found for the request path '/api/auth/signUp'
+2025-07-21 16:36:19.100 +05:00 [DBG] Endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)' with route pattern 'api/auth/signUp' is valid for the request path '/api/auth/signUp'
+2025-07-21 16:36:19.100 +05:00 [DBG] Request matched endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)'
+2025-07-21 16:36:19.103 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-07-21 16:36:20.848 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-07-21 16:36:20.852 +05:00 [DBG] The request has an origin header: 'https://localhost:7088'.
+2025-07-21 16:36:20.852 +05:00 [INF] CORS policy execution successful.
+2025-07-21 16:36:20.854 +05:00 [INF] Executing endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)'
+2025-07-21 16:36:21.681 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-07-21 16:36:21.908 +05:00 [INF] Route matched with {action = "SignUp", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[System.Int64] SignUp(ToDoList.Bll.DTOs.UserCreateDto) on controller ToDoList.Server.Controller.AuthController (ToDoList.Server).
+2025-07-21 16:36:21.911 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-21 16:36:21.911 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-21 16:36:21.911 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-21 16:36:21.912 +05:00 [DBG] Execution plan of exception filters (in the following order): ["ToDoList.Server.Filters.ApiExceptionFilterAttribute (Order: 0)"]
+2025-07-21 16:36:21.912 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","ToDoList.Server.Filters.ToDoListCountHeaderFilter"]
+2025-07-21 16:36:21.914 +05:00 [DBG] Executing controller factory for controller ToDoList.Server.Controller.AuthController (ToDoList.Server)
+2025-07-21 16:36:21.916 +05:00 [DBG] Executed controller factory for controller ToDoList.Server.Controller.AuthController (ToDoList.Server)
+2025-07-21 16:36:21.937 +05:00 [DBG] Attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto' ...
+2025-07-21 16:36:21.940 +05:00 [DBG] Attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto' using the name '' in request data ...
+2025-07-21 16:36:21.943 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-07-21 16:36:21.953 +05:00 [DBG] Connection id "0HNE89A72RNUL", Request id "0HNE89A72RNUL:00000011": started reading request body.
+2025-07-21 16:36:21.953 +05:00 [DBG] Connection id "0HNE89A72RNUL", Request id "0HNE89A72RNUL:00000011": done reading request body.
+2025-07-21 16:36:21.973 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'ToDoList.Bll.DTOs.UserCreateDto'
+2025-07-21 16:36:21.974 +05:00 [DBG] Done attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto'.
+2025-07-21 16:36:21.974 +05:00 [DBG] Done attempting to bind parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto'.
+2025-07-21 16:36:21.974 +05:00 [DBG] Attempting to validate the bound parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto' ...
+2025-07-21 16:36:21.984 +05:00 [DBG] Done attempting to validate the bound parameter 'userCreateDto' of type 'ToDoList.Bll.DTOs.UserCreateDto'.
+2025-07-21 16:39:18.944 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.4' with options: EngineType=SqlServer 
+2025-07-21 16:39:18.968 +05:00 [DBG] 'MainContext' generated a temporary value for the property 'User.UserId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:39:19.002 +05:00 [DBG] Context 'MainContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:39:19.891 +05:00 [DBG] SaveChanges starting for 'MainContext'.
+2025-07-21 16:39:19.893 +05:00 [DBG] DetectChanges starting for 'MainContext'.
+2025-07-21 16:39:19.903 +05:00 [DBG] DetectChanges completed for 'MainContext'.
+2025-07-21 16:39:19.978 +05:00 [DBG] Creating DbConnection.
+2025-07-21 16:39:19.981 +05:00 [DBG] Created DbConnection. (1ms).
+2025-07-21 16:39:19.982 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:20.008 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:20.016 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-21 16:39:20.020 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-07-21 16:39:20.023 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (7ms).
+2025-07-21 16:39:20.027 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 320), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 128), @p4='?' (Size = 15), @p5='?' (DbType = Int32), @p6='?' (Size = 36), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [LastName], [Password], [PhoneNumber], [Role], [Salt], [UserName])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-07-21 16:39:20.056 +05:00 [INF] Executed DbCommand (29ms) [Parameters=[@p0='?' (Size = 320), @p1='?' (Size = 50), @p2='?' (Size = 50), @p3='?' (Size = 128), @p4='?' (Size = 15), @p5='?' (DbType = Int32), @p6='?' (Size = 36), @p7='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [Users] ([Email], [FirstName], [LastName], [Password], [PhoneNumber], [Role], [Salt], [UserName])
+OUTPUT INSERTED.[UserId]
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7);
+2025-07-21 16:39:20.066 +05:00 [DBG] The foreign key property 'User.UserId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-07-21 16:39:20.073 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:20.077 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 17ms reading results.
+2025-07-21 16:39:20.079 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:20.079 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-21 16:39:20.086 +05:00 [DBG] An entity of type 'User' tracked by 'MainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:39:20.087 +05:00 [DBG] SaveChanges completed for 'MainContext' with 1 entities written to the database.
+2025-07-21 16:39:24.154 +05:00 [DBG] Compiling query expression: 
+'DbSet<ToDoItem>()
+    .Count()'
+2025-07-21 16:39:24.257 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleAsync<int>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<int>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM ToDoItems AS t) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> 0
+            SELECT COUNT(*)
+            FROM ToDoItems AS t, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            int? value1;
+            value1 = dataReader.IsDBNull(0) ? default(int?) : (int?)dataReader.GetInt32(0);
+            return (int)value1;
+        }, 
+        contextType: ToDoList.Dal.MainContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-07-21 16:39:24.274 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:24.274 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:24.274 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-21 16:39:24.275 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:39:24.275 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:39:24.275 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ToDoItems] AS [t]
+2025-07-21 16:39:24.280 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ToDoItems] AS [t]
+2025-07-21 16:39:24.320 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:24.320 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 40ms reading results.
+2025-07-21 16:39:24.321 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:24.321 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-21 16:39:24.322 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-21 16:39:24.324 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-07-21 16:39:24.324 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-07-21 16:39:24.324 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-07-21 16:39:24.325 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-07-21 16:39:24.325 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-21 16:39:24.325 +05:00 [INF] Executing ObjectResult, writing value of type 'System.Int64'.
+2025-07-21 16:39:24.332 +05:00 [INF] Executed action ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server) in 182418.2315ms
+2025-07-21 16:39:24.333 +05:00 [INF] Executed endpoint 'ToDoList.Server.Controller.AuthController.SignUp (ToDoList.Server)'
+2025-07-21 16:39:24.333 +05:00 [INF] Request to /api/auth/signUp took 185.231 seconds with status code 200
+2025-07-21 16:39:24.335 +05:00 [DBG] 'MainContext' disposed.
+2025-07-21 16:39:24.337 +05:00 [DBG] Disposing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:39:24.338 +05:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-07-21 16:39:24.338 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/auth/signUp - 200 null application/json; charset=utf-8 185259.5244ms
+2025-07-21 16:40:36.031 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7088/api/auth/login - application/json 56
+2025-07-21 16:40:36.042 +05:00 [DBG] 1 candidate(s) found for the request path '/api/auth/login'
+2025-07-21 16:40:36.042 +05:00 [DBG] Endpoint 'ToDoList.Server.Controller.AuthController.Login (ToDoList.Server)' with route pattern 'api/auth/login' is valid for the request path '/api/auth/login'
+2025-07-21 16:40:36.042 +05:00 [DBG] Request matched endpoint 'ToDoList.Server.Controller.AuthController.Login (ToDoList.Server)'
+2025-07-21 16:40:36.043 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-07-21 16:40:36.051 +05:00 [DBG] AuthenticationScheme: Bearer was not authenticated.
+2025-07-21 16:40:36.052 +05:00 [DBG] The request has an origin header: 'https://localhost:7088'.
+2025-07-21 16:40:36.052 +05:00 [INF] CORS policy execution successful.
+2025-07-21 16:40:36.052 +05:00 [INF] Executing endpoint 'ToDoList.Server.Controller.AuthController.Login (ToDoList.Server)'
+2025-07-21 16:40:36.059 +05:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[ToDoList.Bll.DTOs.LoginResponseDto] Login(ToDoList.Bll.DTOs.UserLoginDto) on controller ToDoList.Server.Controller.AuthController (ToDoList.Server).
+2025-07-21 16:40:36.060 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-07-21 16:40:36.060 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-07-21 16:40:36.060 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-07-21 16:40:36.060 +05:00 [DBG] Execution plan of exception filters (in the following order): ["ToDoList.Server.Filters.ApiExceptionFilterAttribute (Order: 0)"]
+2025-07-21 16:40:36.060 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)","ToDoList.Server.Filters.ToDoListCountHeaderFilter"]
+2025-07-21 16:40:36.061 +05:00 [DBG] Executing controller factory for controller ToDoList.Server.Controller.AuthController (ToDoList.Server)
+2025-07-21 16:40:36.063 +05:00 [DBG] Executed controller factory for controller ToDoList.Server.Controller.AuthController (ToDoList.Server)
+2025-07-21 16:40:36.063 +05:00 [DBG] Attempting to bind parameter 'userLoginDto' of type 'ToDoList.Bll.DTOs.UserLoginDto' ...
+2025-07-21 16:40:36.064 +05:00 [DBG] Attempting to bind parameter 'userLoginDto' of type 'ToDoList.Bll.DTOs.UserLoginDto' using the name '' in request data ...
+2025-07-21 16:40:36.064 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-07-21 16:40:36.065 +05:00 [DBG] Connection id "0HNE89A72RNUL", Request id "0HNE89A72RNUL:00000013": started reading request body.
+2025-07-21 16:40:36.065 +05:00 [DBG] Connection id "0HNE89A72RNUL", Request id "0HNE89A72RNUL:00000013": done reading request body.
+2025-07-21 16:40:36.066 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'ToDoList.Bll.DTOs.UserLoginDto'
+2025-07-21 16:40:36.066 +05:00 [DBG] Done attempting to bind parameter 'userLoginDto' of type 'ToDoList.Bll.DTOs.UserLoginDto'.
+2025-07-21 16:40:36.066 +05:00 [DBG] Done attempting to bind parameter 'userLoginDto' of type 'ToDoList.Bll.DTOs.UserLoginDto'.
+2025-07-21 16:40:36.066 +05:00 [DBG] Attempting to validate the bound parameter 'userLoginDto' of type 'ToDoList.Bll.DTOs.UserLoginDto' ...
+2025-07-21 16:40:36.067 +05:00 [DBG] Done attempting to validate the bound parameter 'userLoginDto' of type 'ToDoList.Bll.DTOs.UserLoginDto'.
+2025-07-21 16:41:08.328 +05:00 [DBG] Entity Framework Core 9.0.4 initialized 'MainContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:9.0.4' with options: EngineType=SqlServer 
+2025-07-21 16:41:08.335 +05:00 [DBG] Compiling query expression: 
+'DbSet<User>()
+    .FirstOrDefault(u => u.UserName == __userName_0)'
+2025-07-21 16:41:08.372 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<User>(
+    asyncEnumerable: SingleQueryingEnumerable.Create<User>(
+        relationalQueryContext: (RelationalQueryContext)queryContext, 
+        relationalCommandResolver: parameters => [LIFTABLE Constant: RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) Required Index MaxLength(320), 1], [Property: User.FirstName (string) Required MaxLength(50), 2], [Property: User.LastName (string) MaxLength(50), 3], [Property: User.Password (string) Required MaxLength(128), 4], [Property: User.PhoneNumber (string) Required Index MaxLength(15), 5], [Property: User.Role (UserRole) Required, 6], [Property: User.Salt (string) Required MaxLength(36), 7], [Property: User.UserName (string) Required Index MaxLength(50), 8] }
+            SELECT TOP(1) u.UserId, u.Email, u.FirstName, u.LastName, u.Password, u.PhoneNumber, u.Role, u.Salt, u.UserName
+            FROM Users AS u
+            WHERE u.UserName == @__userName_0) | Resolver: c => new RelationalCommandCache(
+            c.Dependencies.MemoryCache, 
+            c.RelationalDependencies.QuerySqlGeneratorFactory, 
+            c.RelationalDependencies.RelationalParameterBasedSqlProcessorFactory, 
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: User.UserId (long) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: User.Email (string) Required Index MaxLength(320), 1], [Property: User.FirstName (string) Required MaxLength(50), 2], [Property: User.LastName (string) MaxLength(50), 3], [Property: User.Password (string) Required MaxLength(128), 4], [Property: User.PhoneNumber (string) Required Index MaxLength(15), 5], [Property: User.Role (UserRole) Required, 6], [Property: User.Salt (string) Required MaxLength(36), 7], [Property: User.UserName (string) Required Index MaxLength(50), 8] }
+            SELECT TOP(1) u.UserId, u.Email, u.FirstName, u.LastName, u.Password, u.PhoneNumber, u.Role, u.Salt, u.UserName
+            FROM Users AS u
+            WHERE u.UserName == @__userName_0, 
+            False, 
+            new HashSet<string>(
+                new string[]{ }, 
+                StringComparer.Ordinal
+            )
+        )].GetRelationalCommandTemplate(parameters), 
+        readerColumns: null, 
+        shaper: (queryContext, dataReader, resultContext, resultCoordinator) => 
+        {
+            User entity;
+            entity = 
+            {
+                MaterializationContext materializationContext1;
+                IEntityType entityType1;
+                User instance1;
+                InternalEntityEntry entry1;
+                bool hasNullKey1;
+                materializationContext1 = new MaterializationContext(
+                    [LIFTABLE Constant: ValueBuffer | Resolver: _ => (object)ValueBuffer.Empty], 
+                    queryContext.Context
+                );
+                instance1 = default(User);
+                entry1 = queryContext.TryGetEntry(
+                    key: [LIFTABLE Constant: Key: User.UserId PK | Resolver: c => c.Dependencies.Model.FindEntityType("ToDoList.Dal.Entity.User").FindPrimaryKey()], 
+                    keyValues: new object[]{ (object)dataReader.GetInt64(0) }, 
+                    throwOnNullKey: True, 
+                    hasNullKey: hasNullKey1);
+                !(hasNullKey1) ? entry1 != default(InternalEntityEntry) ? 
+                {
+                    entityType1 = entry1.EntityType;
+                    return instance1 = (User)entry1.Entity;
+                } : 
+                {
+                    ISnapshot shadowSnapshot1;
+                    shadowSnapshot1 = [LIFTABLE Constant: Snapshot | Resolver: _ => Snapshot.Empty];
+                    entityType1 = [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{0} => namelessParameter{0}.Dependencies.Model.FindEntityType("ToDoList.Dal.Entity.User")];
+                    instance1 = switch (entityType1)
+                    {
+                        case [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{1} => namelessParameter{1}.Dependencies.Model.FindEntityType("ToDoList.Dal.Entity.User")]: 
+                            {
+                                return 
+                                {
+                                    User instance;
+                                    instance = new User();
+                                    instance.<UserId>k__BackingField = dataReader.GetInt64(0);
+                                    instance.<Email>k__BackingField = dataReader.GetString(1);
+                                    instance.<FirstName>k__BackingField = dataReader.GetString(2);
+                                    instance.<LastName>k__BackingField = dataReader.IsDBNull(3) ? default(string) : dataReader.GetString(3);
+                                    instance.<Password>k__BackingField = dataReader.GetString(4);
+                                    instance.<PhoneNumber>k__BackingField = dataReader.GetString(5);
+                                    instance.<Role>k__BackingField = Invoke(((EnumToNumberConverter<UserRole, int>)((IReadOnlyProperty)[LIFTABLE Constant: Property: User.Role (UserRole) Required | Resolver: namelessParameter{2} => namelessParameter{2}.Dependencies.Model.FindEntityType("ToDoList.Dal.Entity.User").FindProperty("Role")]).GetTypeMapping().Converter).ConvertFromProviderTyped, dataReader.GetInt32(6));
+                                    instance.<Salt>k__BackingField = dataReader.GetString(7);
+                                    instance.<UserName>k__BackingField = dataReader.GetString(8);
+                                    (instance is IInjectableService) ? ((IInjectableService)instance).Injected(
+                                        context: materializationContext1.Context, 
+                                        entity: instance, 
+                                        queryTrackingBehavior: TrackAll, 
+                                        structuralType: [LIFTABLE Constant: EntityType: User | Resolver: namelessParameter{3} => namelessParameter{3}.Dependencies.Model.FindEntityType("ToDoList.Dal.Entity.User")]) : default(void);
+                                    return instance;
+                                }}
+                        default: 
+                            default(User)
+                    }
+                    ;
+                    entry1 = entityType1 == default(IEntityType) ? default(InternalEntityEntry) : queryContext.StartTracking(
+                        entityType: entityType1, 
+                        entity: instance1, 
+                        snapshot: shadowSnapshot1);
+                    return instance1;
+                } : default(void);
+                return instance1;
+            };
+            return entity;
+        }, 
+        contextType: ToDoList.Dal.MainContext, 
+        standAloneStateManager: False, 
+        detailedErrorsEnabled: False, 
+        threadSafetyChecksEnabled: True), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-07-21 16:41:08.382 +05:00 [DBG] Creating DbConnection.
+2025-07-21 16:41:08.382 +05:00 [DBG] Created DbConnection. (0ms).
+2025-07-21 16:41:08.382 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:41:08.382 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:41:08.382 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-21 16:41:08.382 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:41:08.382 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:41:08.382 +05:00 [DBG] Executing DbCommand [Parameters=[@__userName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[PhoneNumber], [u].[Role], [u].[Salt], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__userName_0
+2025-07-21 16:41:08.387 +05:00 [INF] Executed DbCommand (5ms) [Parameters=[@__userName_0='?' (Size = 50)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [u].[UserId], [u].[Email], [u].[FirstName], [u].[LastName], [u].[Password], [u].[PhoneNumber], [u].[Role], [u].[Salt], [u].[UserName]
+FROM [Users] AS [u]
+WHERE [u].[UserName] = @__userName_0
+2025-07-21 16:41:08.401 +05:00 [DBG] Context 'MainContext' started tracking 'User' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:41:08.402 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:41:08.402 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 14ms reading results.
+2025-07-21 16:41:08.402 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:41:08.402 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-21 16:49:34.144 +05:00 [DBG] 'MainContext' generated a temporary value for the property 'RefreshToken.RefreshTokenId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:49:34.154 +05:00 [DBG] The navigation 'RefreshToken.User' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:49:34.160 +05:00 [DBG] Context 'MainContext' started tracking 'RefreshToken' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:49:34.161 +05:00 [DBG] SaveChanges starting for 'MainContext'.
+2025-07-21 16:49:34.161 +05:00 [DBG] DetectChanges starting for 'MainContext'.
+2025-07-21 16:49:34.166 +05:00 [DBG] DetectChanges completed for 'MainContext'.
+2025-07-21 16:49:34.168 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:49:34.188 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:49:34.188 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-21 16:49:34.188 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:49:34.190 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (1ms).
+2025-07-21 16:49:34.190 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Expires], [IsRevoked], [Token], [UserId])
+OUTPUT INSERTED.[RefreshTokenId]
+VALUES (@p0, @p1, @p2, @p3);
+2025-07-21 16:49:34.198 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?' (DbType = Boolean), @p2='?' (Size = 4000), @p3='?' (DbType = Int64)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [RefreshTokens] ([Expires], [IsRevoked], [Token], [UserId])
+OUTPUT INSERTED.[RefreshTokenId]
+VALUES (@p0, @p1, @p2, @p3);
+2025-07-21 16:49:34.200 +05:00 [DBG] The foreign key property 'RefreshToken.RefreshTokenId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-07-21 16:49:34.200 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:49:34.200 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 1ms reading results.
+2025-07-21 16:49:34.201 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:49:34.201 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-21 16:49:34.201 +05:00 [DBG] An entity of type 'RefreshToken' tracked by 'MainContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-07-21 16:49:34.201 +05:00 [DBG] SaveChanges completed for 'MainContext' with 1 entities written to the database.
+2025-07-21 16:50:04.263 +05:00 [DBG] Opening connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:50:04.263 +05:00 [DBG] Opened connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:50:04.263 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-07-21 16:50:04.263 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:50:04.263 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-07-21 16:50:04.263 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ToDoItems] AS [t]
+2025-07-21 16:50:04.272 +05:00 [INF] Executed DbCommand (7ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [ToDoItems] AS [t]
+2025-07-21 16:50:04.273 +05:00 [DBG] Closing data reader to 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:50:04.273 +05:00 [DBG] A data reader for 'ToDoList' on server 'localhost\SQLDEV' is being disposed after spending 0ms reading results.
+2025-07-21 16:50:04.273 +05:00 [DBG] Closing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:50:04.273 +05:00 [DBG] Closed connection to database 'ToDoList' on server 'localhost\SQLDEV' (0ms).
+2025-07-21 16:50:04.298 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-07-21 16:50:04.298 +05:00 [DBG] Attempting to select an output formatter based on Accept header '["text/plain"]'.
+2025-07-21 16:50:04.298 +05:00 [DBG] Could not find an output formatter based on content negotiation. Accepted types were (["text/plain"])
+2025-07-21 16:50:04.298 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-07-21 16:50:04.298 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-07-21 16:50:04.299 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-07-21 16:50:04.299 +05:00 [INF] Executing ObjectResult, writing value of type 'ToDoList.Bll.DTOs.LoginResponseDto'.
+2025-07-21 16:50:04.300 +05:00 [INF] Executed action ToDoList.Server.Controller.AuthController.Login (ToDoList.Server) in 568239.749ms
+2025-07-21 16:50:04.300 +05:00 [INF] Executed endpoint 'ToDoList.Server.Controller.AuthController.Login (ToDoList.Server)'
+2025-07-21 16:50:04.302 +05:00 [INF] Request to /api/auth/login took 568.257 seconds with status code 200
+2025-07-21 16:50:04.302 +05:00 [DBG] 'MainContext' disposed.
+2025-07-21 16:50:04.302 +05:00 [DBG] Disposing connection to database 'ToDoList' on server 'localhost\SQLDEV'.
+2025-07-21 16:50:04.302 +05:00 [DBG] Disposed connection to database '' on server '' (0ms).
+2025-07-21 16:50:04.302 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7088/api/auth/login - 200 null application/json; charset=utf-8 568272.0516ms
